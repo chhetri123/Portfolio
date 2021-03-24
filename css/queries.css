@@ -1,0 +1,225 @@
+@media only screen and (max-width: 786px) {
+  .mob-header {
+    display: block;
+  }
+  .header-left {
+    transition: ease all 0.35s;
+    left: -200px;
+    z-index: 222;
+  }
+  .header-left.menu-open {
+    left: 0;
+  }
+  .banner .top-fixed {
+    display: none !important;
+  }
+  .banner:after {
+    bottom: 0;
+  }
+
+  .box {
+    margin-left: 0;
+    margin-bottom: 100px;
+  }
+
+  .banner .box h6 {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  .banner .box h1 {
+    font-size: 30px;
+  }
+  .banner .box .lead {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .about-me {
+    text-align: center;
+  }
+  .about-me img {
+    margin-left: 0;
+  }
+  .about-me .social-icons {
+    margin-left: 0px;
+    left: -4%;
+  }
+  .info1 {
+    margin-left: 28%;
+  }
+  .about-info .title h3 {
+    margin-left: 40%;
+    margin-top: 4%;
+  }
+  .info-list {
+    margin-left: 13%;
+  }
+  .what {
+    margin-left: 4%;
+  }
+  .what .col-lg-4 {
+    width: 70%;
+    margin-bottom: 7%;
+    margin-left: 15%;
+  }
+  #work {
+    margin-top: -23%;
+  }
+  .tp-grid li {
+    width: 40%;
+    height: 150px;
+    border: 2px solid white;
+    padding: 0;
+    margin: 0;
+  }
+
+  .tp-info,
+  .tp-title {
+    font-weight: 300;
+    line-height: 20px;
+    font-size: 18px;
+  }
+  #work ul#tp-grid.tp-grid {
+    width: 300px;
+    margin-left: 6%;
+  }
+  .port {
+    width: 23%;
+    height: 147px;
+  }
+  .folio {
+    margin-left: 2%;
+    transform: scale(0.8);
+  }
+
+  .port img {
+    width: 309px;
+    height: 290px;
+    top: -56%;
+    left: -63%;
+  }
+  .Hover {
+    left: -19%;
+    top: -23%;
+  }
+
+  .port.one {
+    left: -96px;
+    top: -22px;
+  }
+  .port.two {
+    left: -31px;
+    top: -17px;
+  }
+  .port.three {
+    left: 34px;
+    top: -14px;
+  }
+
+  .port.four {
+    left: 100px;
+    top: -13px;
+  }
+  .port.five {
+    left: -60px;
+    top: -62px;
+  }
+  .port.six {
+    left: 3px;
+    top: -57px;
+  }
+  .port.seven {
+    left: 70px;
+    top: -53px;
+  }
+  .port.eight {
+    left: -26px;
+    top: -101px;
+  }
+  .port.nine {
+    left: 39px;
+    top: -97px;
+  }
+  .viewBtn {
+    height: 125px;
+    width: 17%;
+    left: 44%;
+    top: -161px;
+  }
+  #blog h3:before,
+  #blog h3:before,
+  #contacts h3:before {
+    left: 42%;
+  }
+  #skills .h3:before {
+    left: 44%;
+  }
+
+  .viewBtn a {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    left: 15%;
+  }
+  .resume-box {
+    margin-left: 0;
+  }
+  .education-box {
+    padding: 10px 0 0 30px;
+  }
+  .education-box h6 {
+    font-size: 20px;
+    margin-left: 0;
+  }
+  .mh-professional-skills {
+    margin-left: 0;
+  }
+
+  .pr-chart canvas {
+    width: 130px;
+    height: 130px;
+  }
+
+  .pr-chart i {
+    line-height: 120px;
+    font-size: 18px;
+  }
+  .title-skills {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .contact-info h4 {
+    font-size: 30px;
+  }
+  .contact-info p {
+    font-size: 15px;
+  }
+  .contact-info li {
+    font-size: 15px;
+  }
+  .contact-info li i {
+    font-size: 18px;
+  }
+  input#subject,
+  input#name,
+  input#email {
+    height: 40px;
+  }
+  textarea#message {
+    height: 70px;
+  }
+  .btn-primary {
+    border: 1px solid white;
+    padding: 8px 30px;
+  }
+  .footer p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .banner .me {
+    opacity: 0.4;
+    width: 84vw;
+  }
+}
